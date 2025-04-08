@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import os
 import gzip
-import shutil
+
 
 # TMDB API key
 API_KEY =os.getenv("API_KEY")
