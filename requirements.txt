@@ -4,3 +4,4 @@ requests
 scikit-learn
 nltk
 pickle
+python-dotenv
