@@ -5,3 +5,4 @@ scikit-learn
 nltk
 pickle
 python-dotenv
+os
