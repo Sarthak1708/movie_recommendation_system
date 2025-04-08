@@ -10,7 +10,7 @@ import gzip
 API_KEY =os.getenv("API_KEY")
 
 # Load the pre-saved data
-movie_dict = pickle.load(open(r'D:\Python\Major_Project\Movie_recommendation_system\movie_list.pkl', 'rb'))
+movie_dict = pickle.load(open('movie_list.pkl', 'rb'))
 with gzip.open(r'D:\Python\Major_Project\Movie_recommendation_system\similarity.pkl.gz', 'rb') as f:
     similarity = pickle.load(f)
 
